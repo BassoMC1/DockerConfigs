@@ -1,0 +1,6 @@
+docker compose build
+docker compose up -d
+
+docker exec -it dashboard bash
+docker exec -it backend bash
+docker exec -it bot bash
